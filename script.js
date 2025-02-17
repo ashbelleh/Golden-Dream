@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         hamburgerButton.addEventListener("click", function () {
             console.log("Hamburger menu clicked");
-            offcanvasInstance.toggle();
         });
 
         document.querySelectorAll(".offcanvas .nav-link").forEach(link => {
